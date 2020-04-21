@@ -1,0 +1,27 @@
+<%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
+<%@page import="util.Info"%>
+<%@page import="dao.CommDAO"%>
+<%@page import="util.PageManager"%>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>Movie Events</title>
+    <link href="qtimages/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="qtimages/css/index.css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
+
+<body>
+<%@ include file="qttop.jsp"%>
+<%@ include file="bht.jsp"%>
+   
+
+   
+   <%@ include file="qtdown.jsp"%>
+   <%@ include file="qtuserlog.jsp"%>
+    <script src="qtimages/lib/jquery/jquery.min.js"></script>
+    <script src="qtimages/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="qtimages/js/index.js"></script>
+</body>
+</html>
